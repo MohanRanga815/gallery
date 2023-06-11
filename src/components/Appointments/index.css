@@ -1,0 +1,132 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.responsive-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 80vh;
+  width: 120vh;
+  border-radius: 10px;
+  overflow: auto;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .responsive-con {
+    max-width: 1120px;
+    width: 75%;
+  }
+}
+.appointment-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 86%;
+  max-width: 970px;
+}
+.inner-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 60px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.app-heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+.label {
+  font-size: 14px;
+  color: #b5b7c4;
+  margin-bottom: 5px;
+}
+.title {
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.date {
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  width: 80px;
+}
+
+.image {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    display: block;
+    width: 50%;
+  }
+}
+.line {
+  display: flex;
+  color: #b5b7c4;
+  width: 100%;
+}
+.appointment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  margin: 20px;
+}
+.app-head {
+  font-size: 20px;
+}
+.filter-style {
+  background-color: transparent;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  width: 60px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #8b5cf6;
+}
+.filter-empty {
+  color: #9877f0;
+  background-color: #ffffff;
+  border: 1px solid #9877f0;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  margin-top: 25px;
+}
+@media screen and (min-width: 768px) {
+  .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
